@@ -298,6 +298,10 @@ body#stylus-options #options,
 .colorpicker-format-change-button:hover {
     color: #e6e6e6
 }
+/* .warnings #ffe2e2 */
+.warnings {
+    background-color: hsl(0, 27%, 43%)
+}
 /* Reminder to do the options footer at some point.
 #actions {
     background-color: rgba(0, 0, 0, .1)
