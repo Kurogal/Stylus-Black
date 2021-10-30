@@ -82,7 +82,7 @@ body#stylus-options #options,
   button {
     background: hsl(240, 5%, 7%)!important;
     border: 1px solid #484848!important;
-    color: silver!important;
+    color: hsl(0, 0%, 95%)!important;
     border-radius: 3px!important
   }
   .svg-icon.checked {
@@ -120,13 +120,13 @@ body#stylus-options #options,
     color: #000!important
   }
   .svg-icon {
-    fill: #b1b1b3!important
+    fill: hsl(240, 1%, 90%)!important
   }
   #url {
     filter: invert(65%)!important
   }
   .CodeMirror-gutters {
-    color: #b1b1b3!important
+    color: hsl(240, 1%, 90%)!important
   }
   .newUI .entry {
     background: hsl(240, 4%, 13%)!important
@@ -141,7 +141,7 @@ body#stylus-options #options,
     background-color: hsl(0, 1%, 21%)!important;
   }
   .svg-icon.select-arrow {
-    fill: silver!important
+    fill: hsl(0, 0%, 95%)!important
   }
   .newUI .entry .style-name:hover::before {
     background: 0 0!important
@@ -162,28 +162,28 @@ body#stylus-options #options,
     border-radius: 4px!important
   }
   .Codemirror-hints {
-    background: #353b48!important;
-    border-color: #737373!important
+    background: hsl(221, 15%, 15%)!important;
+    border-color: hsl(0, 0%, 65%)!important
   }
   .Codemirror-hint {
     color: #d7d7db!important
   }
   .CodeMirror {
     background: hsl(240, 5%, 7%)!important;
-    color: #b1b1b3!important
+    color: hsl(240, 1%, 90%)!important
   }
   div.CodeMirror-selected {
-    background: #353b48!important
+    background: hsl(221, 15%, 15%)!important
   }
   .CodeMirror-line > span > span::selection,
   .CodeMirror-line > span::selection,
   .CodeMirror-line::selection {
-    background: #353b48!important
+    background: hsl(221, 15%, 15%)!important
   }
   .CodeMirror-line > span > span::-moz-selection,
   .CodeMirror-line > span::-moz-selection,
   .CodeMirror-line::-moz-selection {
-    background: #353b48!important
+    background: hsl(221, 15%, 15%)!important
   }
   .CodeMirror-gutters {
     background: hsl(240, 5%, 7%)!important;
@@ -305,5 +305,5 @@ body#stylus-options #options,
 /* Reminder to do the options footer at some point.
 #actions {
     background-color: rgba(0, 0, 0, .1)
-}
+} */
 }
