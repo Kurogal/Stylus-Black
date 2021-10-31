@@ -206,7 +206,7 @@ regexp("moz-extension://.*") {
   }
   /* Comment Color #a50 */
   span.cm-comment {
-    color: hsl(30, 100%, 67%)!important
+    color: #ff870f!important
   }
   span.cm-atom,
   span.cm-attribute,
