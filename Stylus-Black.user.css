@@ -14,12 +14,12 @@ regexp("moz-extension://.*") {
   body#stylus-options #options,
   #notes,
   body:not(#stylus-options):not(#stylus-popup) {
-    background: #1a1a1a!important;
+    background: #0d0d0d!important;
     color: #e6e6e6!important
   }
   #header {
     color: #fff!important;
-    background: #000!important;
+    background: #0d0d0d!important;
     border-style: none!important
   }
   #stylus-popup {
@@ -63,12 +63,12 @@ regexp("moz-extension://.*") {
     font-family: arial,sans-serif!important
   }
   input[type=checkbox]:not(.slider) {
-    background: #1a1a1a!important
+    background: #0d0d0d!important
   }
   .firefox select,
   .sorter-selection select,
   input:not(.slider) {
-    background-color: #1a1a1a!important;
+    background-color: #0d0d0d!important;
     color: #fff!important;
     border: 1px solid #747477!important
   }
@@ -136,7 +136,7 @@ regexp("moz-extension://.*") {
   background: #0a0a0a!important
   }
   .newUI .entry:hover {
-    background: #1a1a1a!important
+    background: #0d0d0d!important
   }
   .disabled h2::after,
   .entry.usercss .style-name-link::after {
@@ -204,8 +204,9 @@ regexp("moz-extension://.*") {
   .CodeMirror-cursor {
     border-left: 1px solid #fff!important
   }
+  /* Comment Color #a50 */
   span.cm-comment {
-    color: #939393!important
+    color: hsl(30, 100%, 67%)!important
   }
   span.cm-atom,
   span.cm-attribute,
@@ -273,9 +274,10 @@ regexp("moz-extension://.*") {
   .menu-items-wrapper {
     background-color: #1a1919;
   }
+/*  Original Options Title background-color: rgb(145, 208, 198); */
   #options-title {
-    background: #000;
-    color: #e6e6e6;
+    background: #2e6b61;
+    color: #fff;
   }
   input[type="radio"]:checked:after {
     background-color: #d7d7db;
@@ -290,7 +292,7 @@ regexp("moz-extension://.*") {
     color: unset !important;
   }
 .colorpicker-popup {
-    background-color: #000;
+    background-color: #222;
     border: 1px solid #737373;
 }
 .colorpicker-title,
