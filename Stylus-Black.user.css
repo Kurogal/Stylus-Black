@@ -153,8 +153,9 @@ regexp("moz-extension://.*") {
   body.all-styles-hidden-by-filters::before {
     color: #45a1ff!important
   }
+  /* Search Result Badge */
   .active #filters-stats {
-    background-color: #45a1ff!important;
+    background-color: #004d99!important;
     border-color: #45a1ff!important
   }
   #reset-filters {
@@ -289,7 +290,7 @@ regexp("moz-extension://.*") {
   }
 .colorpicker-popup {
     background-color: #000;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #737373;
 }
 .colorpicker-title,
 .colorpicker-title-action[data-active],
