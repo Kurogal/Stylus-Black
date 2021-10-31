@@ -128,14 +128,15 @@ regexp("moz-extension://.*") {
   .CodeMirror-gutters {
     color: #e6e6e6!important
   }
+  /* Manage: Table of Styles */
   .newUI .entry {
-    background: #0a0a0a!important
+    background: #050505!important
   }
   .newUI .entry.odd {
-  background: #141414!important
+  background: #0a0a0a!important
   }
   .newUI .entry:hover {
-    background: #262626!important
+    background: #1a1a1a!important
   }
   .disabled h2::after,
   .entry.usercss .style-name-link::after {
