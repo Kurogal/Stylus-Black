@@ -206,7 +206,7 @@ regexp("moz-extension://.*") {
   }
   /* Comment Color #a50 */
   span.cm-comment {
-    color: #ff870f!important
+    color: #a60!important
   }
   span.cm-atom,
   span.cm-attribute,
@@ -276,7 +276,7 @@ regexp("moz-extension://.*") {
   }
 /*  Original Options Title background-color: rgb(145, 208, 198); */
   #options-title {
-    background: #2e6b61;
+    background: #007670;
     color: #fff;
   }
   input[type="radio"]:checked:after {
